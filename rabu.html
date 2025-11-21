@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makanan Hari Senin</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-orange-50 font-sans"></body>
+    <!-- HEADER -->
+  <header class="w-full bg-white/70 backdrop-blur border-b border-orange-100 shadow-sm">
+    <div class="max-w-6xl mx-auto flex items-center justify-between p-4">
+
+      <!-- BRAND -->
+      <a href="index.html" class="flex items-center gap-3">
+        <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-orange-500 to-orange-300 shadow flex items-center justify-center">
+          <svg viewBox="0 0 24 24" fill="none" class="w-7 h-7 text-white" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M7 2v11" />
+            <path d="M9 3c0 1.2-.9 2.2-2 2.2S5 4.2 5 3" />
+            <path d="M17 2v11" />
+            <path d="M15 3c0 1.2.9 2.2 2 2.2s2-1 2-2.2" />
+          </svg>
+        </div>
+        <div>
+          <h1 class="text-lg font-bold">SeleraPagi</h1>
+          <p class="text-xs text-gray-500">Ide sarapan & resep cepat</p>
+        </div>
+      </a>
+
+      <!-- NAV DESKTOP -->
+      <nav class="hidden md:flex gap-6 text-gray-600 font-semibold">
+        <a href="Resep.html" class="hover:text-gray-900">Resep</a>
+        <a href="Tentang.html" class="hover:text-gray-900">Tentang</a>
+      </nav>
+         
+      
+
+      <!-- HAMBURGER -->
+      <button id="menuBtn" class="md:hidden text-3xl">☰</button>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div id="mobileMenu" class="hidden fixed inset-0 bg-black/40 p-6 pt-24">
+    <div class="bg-white rounded-xl p-6 max-w-xs mx-auto space-y-4 shadow-lg">
+      <a  class="block p-2 rounded hover:bg-orange-100"href="Resep.html">Resep</a>
+      <a  class="block p-2 rounded hover:bg-orange-100"href="Tentang.html">Tentang</a>
+      
+    </div>
+  </div>
+
+  <!-- HERO -->
+   
+<section class="max-w-6xl mx-auto p-4 mt-10">
+  <h2 class="text-2xl font-bold mb-4">Rekomendasi Makanan Hari Rabu</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 gap-6">
+    <!-- makanan -->
+     <div class="bg-white/70 p-4 rounded-xl shadow hover:scale-[1.02] transition">
+      <div class="h-40 bg-cover bg-center rounded-lg" style="background-image:url('https://media.istockphoto.com/id/523629698/id/foto/oatmeal-dengan-susu-dan-kue.jpg?s=612x612&w=is&k=20&c=PoDbfXTfX_rBUfO_xo6wJYcSKjc2y7UNMb0Uk0jdd04=');"></div>
+      <h3 class="text-lg font-bold mt-3"href="Nasi Goreng.html">oatmeal dengan susu</h3>
+      <p class="text-gray-600 text-sm">Sangat baik untuk pencernaan.</p>
+      <a href="oatmeal.html">
+      <button class="w-full mt-3 bg-orange-500 text-white py-2 rounded-lg shadow hover:bg-orange-600 active:scale-95">
+  Lihat Resep
+
+</a>
+
+    </div>
+    <!-- item 3 -->
+    <div class="bg-white/70 p-4 rounded-xl shadow hover:scale-[1.02] transition">
+      <div class="h-40 bg-cover bg-center rounded-lg" style="background-image:url('https://png.pngtree.com/background/20230627/original/pngtree-background-of-pile-fresh-fruits-picture-image_4072706.jpg');"></div>
+      <h3 class="text-lg font-bold mt-3">Buah Buahan</h3>
+      <p class="text-gray-600 text-sm">Cocok Untuk Menghangatkan Badan saat pagi </p>
+    </div>
+    <!-- item3 -->
+      
+    <div class="bg-white/70 p-4 rounded-xl shadow hover:scale-[1.02] transition">
+      <div class="h-40 bg-cover bg-center rounded-lg" style="background-image:url('https://awsimages.detik.net.id/community/media/visual/2022/05/22/teh-hangat-3.jpeg?w=724');"></div>
+      <h3 class="text-lg font-bold mt-3">Teh Hangat</h3>
+      <p class="text-gray-600 text-sm"> Cocok untuk Menghangatkan Badan. </p>
+      <a href="tehhangat.html">
+        <button class="w-full mt-3 bg-orange-500 text-white py-2 rounded-lg shadow hover:bg-orange-600 active:scale-95">
+  Lihat Resep
+        </a>
+    </div>
+
+</section>
+</body>
+</html>
